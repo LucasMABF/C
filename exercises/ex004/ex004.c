@@ -49,4 +49,6 @@ int main(int argc, char **argv){
             printf("Lower case letter\n");
             break;
     }
+
+    return 0;
 }
