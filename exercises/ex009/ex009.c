@@ -15,9 +15,9 @@ int main(int argc, char **argv){
     }
     fclose(g);
 
-    FILE *h = encrypt("hello.txt", 1);
+    encrypt("hello.txt", 1);
     printf("encrypted into file .encr\n");
-    FILE *i = decrypt("hello.txt.encr", 1);
+    decrypt("hello.txt.encr", 1);
     printf("decrypted file\n");
 
 }

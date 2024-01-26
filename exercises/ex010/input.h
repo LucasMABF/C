@@ -1,0 +1,1 @@
+int readln(char*, int);

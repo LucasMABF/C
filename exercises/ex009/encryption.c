@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-FILE *encrypt(char *fileName, int key){
+void encrypt(char *fileName, int key){
     FILE *f = fopen(fileName, "r");
     
     if (f != NULL){
@@ -31,7 +31,7 @@ FILE *encrypt(char *fileName, int key){
     }
 }
 
-FILE *decrypt(char *fileName, int key){
+void decrypt(char *fileName, int key){
     FILE *f = fopen(fileName, "r");
     
     if (f != NULL){
